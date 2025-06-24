@@ -13,16 +13,15 @@ This trading system implements:
 
 ## Project Structure
 
-- nalysis/ - Analysis and reporting modules
-- acktesting/ - Backtesting engine and related components
+- analysis/ - Analysis and reporting modules
+- backtesting/ - Backtesting engine and related components
 - config/ - Configuration files and settings
 - data/ - Data collection and database management
-- eatures/ - Feature engineering pipeline
+- features/ - Feature engineering pipeline
 - models/ - Machine learning models (neural networks, etc.)
 - monitoring/ - Dashboard and monitoring tools
-- 
-ews/ - News analysis and sentiment components
-- 	rading/ - Live trading execution
+- news/ - News analysis and sentiment components
+- trading/ - Live trading execution
 - utils/ - Utility functions
 
 ## Key Features
