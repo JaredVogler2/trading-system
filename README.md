@@ -17,7 +17,7 @@ This trading system implements:
 - backtesting/ - Backtesting engine and related components
 - config/ - Configuration files and settings
 - data/ - Data collection and database management
-- features/ - Feature engineering pipeline
+- features/ - Feature engineering pipeline
 - models/ - Machine learning models (neural networks, etc.)
 - monitoring/ - Dashboard and monitoring tools
 - news/ - News analysis and sentiment components
