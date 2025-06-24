@@ -1,0 +1,56 @@
+﻿# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# Git backup
+.git_backup/
+
+# Data files
+*.db
+*.sqlite
+*.csv
+data/
+news_predictions_*.json
+
+# Model files
+*.pt
+*.pth
+*.pkl
+*.h5
+*.joblib
+models/
+
+# Analysis outputs
+analysis/reports/
+*.png
+
+# Code bundles
+code_bundle_*.txt
+
+# Logs
+*.log
+logs/
+
+# Cache
+__pycache__/
+*.py[cod]
+*.class
+.cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/

@@ -1,0 +1,65 @@
+Python files in: C:\Users\jared\PycharmProjects\trading_system
+----------------------------------------------------------------------
+File Path                                               Lines
+----------------------------------------------------------------------
+alpaca_connection.py                                       23
+analysis\__init__.py                                        2
+analysis\full_analysis.py                                 626
+analysis\multi_timeframe_predictions.py                   188
+analysis\view_predictions.py                              277
+analysis\visualize_timeframes.py                           77
+backtesting\__init__.py                                     1
+backtesting\comprehensive_backtester.py                   864
+backtesting\engine.py                                     803
+bundle_maker.py                                            28
+check_prediction_files.py                                  42
+check_setup.py                                             12
+clear_dashboard_cache.py                                   38
+config\__init__.py                                          1
+config\always_on_config.py                                375
+config\settings.py                                        285
+config\trading_config.py                                   29
+count_lines.py                                             85
+create_helper_scripts.py                                  134
+data\__init__.py                                            1
+data\collector.py                                         472
+data\database.py                                          638
+debug_alpaca_data_fetch.py                                 97
+debug_dashboard_connection.py                              33
+features\__init__.py                                        1
+features\base_features.py                                 525
+features\interactions.py                                  519
+features\pipeline.py                                      530
+main.py                                                   604
+models\__init__.py                                          1
+models\neural_networks.py                                 849
+monitoring\__init__.py                                     20
+monitoring\backtest_runner.py                             569
+monitoring\chart_creators.py                              262
+monitoring\css_styles.py                                  122
+monitoring\data_fetchers.py                               241
+monitoring\display_tabs.py                                602
+monitoring\enhanced_dashboard.py                         1587
+monitoring\mock_data_generators.py                        208
+monitoring\mock_data_tracker.py                            81
+monitoring\real_data_manager.py                           352
+monitoring\realtime_data_sync.py                          682
+monitoring\utility_helpers.py                              89
+news\__init__.py                                            1
+news\fix_news_analyzer.py                                  24
+news\news_analyzer.py                                     826
+news\news_analyzer_fixed.py                                24
+openAI_connection.py                                       29
+quick_generate_predictions.py                              31
+run_always_on_trading.py                                 1103
+run_analysis.py                                            36
+run_backtest.py                                           103
+run_enhanced_dashboard.py                                 233
+setup_live_trading.py                                     382
+setup_live_trading_fixed.py                               361
+temp_enhanced_dashboard_runner.py                          32
+trading\__init__.py                                         1
+trading\live_trader.py                                    573
+utils\__init__.py                                           1
+----------------------------------------------------------------------
+Total files: 59                                         16735

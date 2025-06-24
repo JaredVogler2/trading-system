@@ -1,0 +1,74 @@
+Module Usage Analysis for: C:\Users\jared\PycharmProjects\trading_system
+Command: python run_always_on_trading.py --paper
+Analysis Date: 2025-06-23 15:23:51
+================================================================================
+
+Total Python files found: 60
+Files used during execution: 0
+Unused files: 60
+
+UNUSED FILES (potentially safe to delete):
+----------------------------------------
+  - alpaca_connection.py (660 bytes)
+  - analysis\__init__.py (85 bytes)
+  - analysis\full_analysis.py (28,628 bytes)
+  - analysis\multi_timeframe_predictions.py (7,055 bytes)
+  - analysis\view_predictions.py (12,594 bytes)
+  - analysis\visualize_timeframes.py (2,933 bytes)
+  - backtesting\__init__.py (50 bytes)
+  - backtesting\comprehensive_backtester.py (33,649 bytes)
+  - backtesting\engine.py (29,917 bytes)
+  - bundle_maker.py (939 bytes)
+  - check_prediction_files.py (1,448 bytes)
+  - check_setup.py (404 bytes)
+  - clear_dashboard_cache.py (1,089 bytes)
+  - config\__init__.py (46 bytes)
+  - config\always_on_config.py (12,930 bytes)
+  - config\settings.py (9,233 bytes)
+  - config\trading_config.py (978 bytes)
+  - count_lines.py (2,636 bytes)
+  - create_helper_scripts.py (4,256 bytes)
+  - data\__init__.py (43 bytes)
+  - data\collector.py (17,493 bytes)
+  - data\database.py (20,645 bytes)
+  - debug_alpaca_data_fetch.py (3,330 bytes)
+  - debug_dashboard_connection.py (1,227 bytes)
+  - features\__init__.py (34 bytes)
+  - features\base_features.py (20,498 bytes)
+  - features\interactions.py (23,750 bytes)
+  - features\pipeline.py (18,924 bytes)
+  - main.py (22,949 bytes)
+  - models\__init__.py (41 bytes)
+  - models\neural_networks.py (27,600 bytes)
+  - module_tracer.py (7,274 bytes)
+  - monitoring\__init__.py (585 bytes)
+  - monitoring\backtest_runner.py (20,168 bytes)
+  - monitoring\chart_creators.py (8,454 bytes)
+  - monitoring\css_styles.py (3,349 bytes)
+  - monitoring\data_fetchers.py (10,803 bytes)
+  - monitoring\display_tabs.py (25,752 bytes)
+  - monitoring\enhanced_dashboard.py (60,743 bytes)
+  - monitoring\mock_data_generators.py (7,329 bytes)
+  - monitoring\mock_data_tracker.py (2,688 bytes)
+  - monitoring\real_data_manager.py (13,317 bytes)
+  - monitoring\realtime_data_sync.py (25,667 bytes)
+  - monitoring\utility_helpers.py (2,994 bytes)
+  - news\__init__.py (27 bytes)
+  - news\fix_news_analyzer.py (788 bytes)
+  - news\news_analyzer.py (32,169 bytes)
+  - news\news_analyzer_fixed.py (788 bytes)
+  - openAI_connection.py (932 bytes)
+  - quick_generate_predictions.py (912 bytes)
+  - run_always_on_trading.py (48,270 bytes)
+  - run_analysis.py (1,315 bytes)
+  - run_backtest.py (4,720 bytes)
+  - run_enhanced_dashboard.py (7,605 bytes)
+  - setup_live_trading.py (11,813 bytes)
+  - setup_live_trading_fixed.py (11,114 bytes)
+  - temp_enhanced_dashboard_runner.py (860 bytes)
+  - trading\__init__.py (25 bytes)
+  - trading\live_trader.py (21,436 bytes)
+  - utils\__init__.py (36 bytes)
+
+USED FILES:
+----------------------------------------

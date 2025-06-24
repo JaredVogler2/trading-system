@@ -1,0 +1,86 @@
+Dependency Analysis for: C:\Users\jared\PycharmProjects\trading_system
+Entry Point: run_always_on_trading.py
+================================================================================
+
+Total Python files: 60
+Files used (reachable from entry point): 2
+Files not used: 58
+
+IMPORT TREE (first 3 levels):
+----------------------------------------
+run_always_on_trading.py
+  main.py
+
+USED FILES:
+----------------------------------------
+  + main.py (22,949 bytes, imports 0 files, imported by 4 files)
+  + run_always_on_trading.py (48,270 bytes, imports 1 files, imported by 0 files)
+
+UNUSED FILES (not reachable from entry point):
+----------------------------------------
+
+  Test Files:
+    - backtesting\__init__.py (50 bytes)
+    - backtesting\comprehensive_backtester.py (33,649 bytes)
+    - backtesting\engine.py (29,917 bytes)
+    - monitoring\backtest_runner.py (20,168 bytes)
+    - run_backtest.py (4,720 bytes)
+
+  Setup/Configuration Scripts:
+    - check_setup.py (404 bytes)
+    - setup_live_trading.py (11,813 bytes)
+    - setup_live_trading_fixed.py (11,114 bytes)
+
+  Other Entry Points (might be used independently):
+    - run_analysis.py (1,315 bytes)
+    - run_enhanced_dashboard.py (7,605 bytes)
+
+  Potentially Unused Files:
+    - alpaca_connection.py (660 bytes) - no imports found
+    - analysis\__init__.py (85 bytes) - no imports found
+    - analysis\full_analysis.py (28,628 bytes) - no imports found
+    - analysis\multi_timeframe_predictions.py (7,055 bytes) - no imports found
+    - analysis\view_predictions.py (12,594 bytes) - no imports found
+    - analysis\visualize_timeframes.py (2,933 bytes) - no imports found
+    - bundle_maker.py (939 bytes) - no imports found
+    - check_prediction_files.py (1,448 bytes) - no imports found
+    - clear_dashboard_cache.py (1,089 bytes) - no imports found
+    - config\__init__.py (46 bytes) - no imports found
+    - config\always_on_config.py (12,930 bytes) - no imports found
+    - config\settings.py (9,233 bytes) - no imports found
+    - config\trading_config.py (978 bytes) - no imports found
+    - count_lines.py (2,636 bytes) - no imports found
+    - create_helper_scripts.py (4,256 bytes) - no imports found
+    - data\__init__.py (43 bytes) - no imports found
+    - data\collector.py (17,493 bytes) - no imports found
+    - data\database.py (20,645 bytes) - no imports found
+    - debug_alpaca_data_fetch.py (3,330 bytes) - no imports found
+    - debug_dashboard_connection.py (1,227 bytes) - no imports found
+    - features\__init__.py (34 bytes) - no imports found
+    - features\base_features.py (20,498 bytes) - no imports found
+    - features\interactions.py (23,750 bytes) - no imports found
+    - features\pipeline.py (18,924 bytes) - no imports found
+    - models\__init__.py (41 bytes) - no imports found
+    - models\neural_networks.py (27,600 bytes) - no imports found
+    - module_tracer.py (11,617 bytes) - no imports found
+    - monitoring\__init__.py (585 bytes) - no imports found
+    - monitoring\chart_creators.py (8,454 bytes) - no imports found
+    - monitoring\css_styles.py (3,349 bytes) - no imports found
+    - monitoring\data_fetchers.py (10,803 bytes) - no imports found
+    - monitoring\display_tabs.py (25,752 bytes) - no imports found
+    - monitoring\enhanced_dashboard.py (60,743 bytes) - no imports found
+    - monitoring\mock_data_generators.py (7,329 bytes) - no imports found
+    - monitoring\mock_data_tracker.py (2,688 bytes) - no imports found
+    - monitoring\real_data_manager.py (13,317 bytes) - no imports found
+    - monitoring\realtime_data_sync.py (25,667 bytes) - no imports found
+    - monitoring\utility_helpers.py (2,994 bytes) - no imports found
+    - news\__init__.py (27 bytes) - no imports found
+    - news\fix_news_analyzer.py (788 bytes) - no imports found
+    - news\news_analyzer.py (32,169 bytes) - no imports found
+    - news\news_analyzer_fixed.py (788 bytes) - no imports found
+    - openAI_connection.py (932 bytes) - no imports found
+    - quick_generate_predictions.py (912 bytes) - no imports found
+    - temp_enhanced_dashboard_runner.py (860 bytes) - no imports found
+    - trading\__init__.py (25 bytes) - no imports found
+    - trading\live_trader.py (21,436 bytes) - no imports found
+    - utils\__init__.py (36 bytes) - no imports found

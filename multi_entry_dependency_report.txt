@@ -1,0 +1,214 @@
+Multi-Entry Point Dependency Analysis
+Project: C:\Users\jared\PycharmProjects\trading_system
+Entry Points: run_always_on_trading.py, run_enhanced_dashboard.py
+================================================================================
+
+Total Python files: 60
+Files used by any entry point: 25
+Files not used by any entry point: 35
+
+
+Files reachable from run_always_on_trading.py: 25
+  [CONNECTED] run_always_on_trading.py connects to run_enhanced_dashboard.py
+    - via dynamic execution (subprocess/exec)
+
+Files reachable from run_enhanced_dashboard.py: 3
+
+Files used by ALL entry points: 3
+  - monitoring\enhanced_dashboard.py
+  - run_enhanced_dashboard.py
+  - temp_enhanced_dashboard_runner.py
+
+DYNAMIC EXECUTIONS FOUND:
+----------------------------------------
+clear_dashboard_cache.py dynamically calls:
+  -> temp_enhanced_dashboard_runner.py
+  -> run_enhanced_dashboard.py
+  -> monitoring\enhanced_dashboard.py
+create_helper_scripts.py dynamically calls:
+  -> temp_enhanced_dashboard_runner.py
+  -> run_enhanced_dashboard.py
+  -> monitoring\enhanced_dashboard.py
+module_tracer.py dynamically calls:
+  -> monitoring\__init__.py
+  -> utils\__init__.py
+  -> run_enhanced_dashboard.py
+  -> analysis\__init__.py
+  -> config\__init__.py
+  -> models\__init__.py
+  -> trading\__init__.py
+  -> main.py
+  -> temp_enhanced_dashboard_runner.py
+  -> run_always_on_trading.py
+  -> features\__init__.py
+  -> monitoring\enhanced_dashboard.py
+  -> data\__init__.py
+  -> news\__init__.py
+  -> backtesting\__init__.py
+run_always_on_trading.py dynamically calls:
+  -> features\pipeline.py
+  -> main.py
+  -> temp_enhanced_dashboard_runner.py
+  -> config\__init__.py
+  -> models\__init__.py
+  -> monitoring\enhanced_dashboard.py
+  -> backtesting\__init__.py
+  -> monitoring\__init__.py
+  -> utils\__init__.py
+  -> config\settings.py
+  -> trading\__init__.py
+  -> run_always_on_trading.py
+  -> features\__init__.py
+  -> data\__init__.py
+  -> news\__init__.py
+  -> news\news_analyzer.py
+  -> run_enhanced_dashboard.py
+  -> analysis\__init__.py
+  -> data\database.py
+  -> trading\live_trader.py
+  -> run_analysis.py
+run_enhanced_dashboard.py dynamically calls:
+  -> temp_enhanced_dashboard_runner.py
+  -> run_enhanced_dashboard.py
+  -> monitoring\enhanced_dashboard.py
+temp_enhanced_dashboard_runner.py dynamically calls:
+  -> temp_enhanced_dashboard_runner.py
+  -> run_enhanced_dashboard.py
+  -> monitoring\enhanced_dashboard.py
+config\always_on_config.py dynamically calls:
+  -> main.py
+  -> config\always_on_config.py
+  -> config\settings.py
+data\collector.py dynamically calls:
+  -> monitoring\__init__.py
+  -> utils\__init__.py
+  -> data\__init__.py
+  -> config\settings.py
+  -> config\__init__.py
+  -> analysis\__init__.py
+  -> models\__init__.py
+  -> trading\__init__.py
+  -> main.py
+  -> data\collector.py
+  -> features\__init__.py
+  -> news\__init__.py
+  -> backtesting\__init__.py
+features\pipeline.py dynamically calls:
+  -> features\base_features.py
+  -> utils\__init__.py
+  -> monitoring\__init__.py
+  -> data\__init__.py
+  -> config\settings.py
+  -> analysis\__init__.py
+  -> config\__init__.py
+  -> data\database.py
+  -> features\pipeline.py
+  -> models\__init__.py
+  -> main.py
+  -> data\collector.py
+  -> trading\__init__.py
+  -> features\__init__.py
+  -> news\__init__.py
+  -> backtesting\engine.py
+  -> backtesting\__init__.py
+  -> features\interactions.py
+models\neural_networks.py dynamically calls:
+  -> monitoring\__init__.py
+  -> utils\__init__.py
+  -> data\__init__.py
+  -> config\settings.py
+  -> config\__init__.py
+  -> analysis\__init__.py
+  -> features\pipeline.py
+  -> models\neural_networks.py
+  -> models\__init__.py
+  -> main.py
+  -> trading\__init__.py
+  -> features\__init__.py
+  -> news\__init__.py
+  -> backtesting\__init__.py
+monitoring\enhanced_dashboard.py dynamically calls:
+  -> temp_enhanced_dashboard_runner.py
+  -> run_enhanced_dashboard.py
+  -> monitoring\enhanced_dashboard.py
+monitoring\realtime_data_sync.py dynamically calls:
+  -> monitoring\__init__.py
+  -> analysis\multi_timeframe_predictions.py
+  -> utils\__init__.py
+  -> data\__init__.py
+  -> config\settings.py
+  -> analysis\__init__.py
+  -> config\__init__.py
+  -> data\database.py
+  -> models\__init__.py
+  -> trading\__init__.py
+  -> main.py
+  -> features\__init__.py
+  -> monitoring\realtime_data_sync.py
+  -> news\__init__.py
+  -> backtesting\__init__.py
+monitoring\__init__.py dynamically calls:
+  -> temp_enhanced_dashboard_runner.py
+  -> run_enhanced_dashboard.py
+  -> monitoring\enhanced_dashboard.py
+news\news_analyzer.py dynamically calls:
+  -> monitoring\__init__.py
+  -> utils\__init__.py
+  -> data\__init__.py
+  -> config\settings.py
+  -> analysis\__init__.py
+  -> config\__init__.py
+  -> data\database.py
+  -> features\pipeline.py
+  -> models\__init__.py
+  -> main.py
+  -> trading\__init__.py
+  -> features\__init__.py
+  -> news\__init__.py
+  -> news\news_analyzer.py
+  -> run_analysis.py
+  -> backtesting\__init__.py
+
+UNUSED FILES (not reachable from any entry point):
+----------------------------------------
+
+  Test Files:
+    - backtesting\comprehensive_backtester.py (33,649 bytes)
+    - monitoring\backtest_runner.py (20,168 bytes)
+    - run_backtest.py (4,720 bytes)
+
+  Setup/Configuration Scripts:
+    - check_setup.py (404 bytes)
+    - config\always_on_config.py (12,930 bytes)
+    - config\trading_config.py (978 bytes)
+    - setup_live_trading.py (11,813 bytes)
+    - setup_live_trading_fixed.py (11,114 bytes)
+
+  Likely Unused Files:
+    - alpaca_connection.py (660 bytes)
+    - analysis\full_analysis.py (28,628 bytes)
+    - analysis\multi_timeframe_predictions.py (7,055 bytes)
+    - analysis\view_predictions.py (12,594 bytes)
+    - analysis\visualize_timeframes.py (2,933 bytes)
+    - bundle_maker.py (939 bytes)
+    - check_prediction_files.py (1,448 bytes)
+    - clear_dashboard_cache.py (1,089 bytes)
+    - count_lines.py (2,636 bytes)
+    - create_helper_scripts.py (4,256 bytes)
+    - debug_alpaca_data_fetch.py (3,330 bytes)
+    - debug_dashboard_connection.py (1,227 bytes)
+    - models\neural_networks.py (27,600 bytes)
+    - module_tracer.py (15,231 bytes)
+    - monitoring\chart_creators.py (8,454 bytes)
+    - monitoring\css_styles.py (3,349 bytes)
+    - monitoring\data_fetchers.py (10,803 bytes)
+    - monitoring\display_tabs.py (25,752 bytes)
+    - monitoring\mock_data_generators.py (7,329 bytes)
+    - monitoring\mock_data_tracker.py (2,688 bytes)
+    - monitoring\real_data_manager.py (13,317 bytes)
+    - monitoring\realtime_data_sync.py (25,667 bytes)
+    - monitoring\utility_helpers.py (2,994 bytes)
+    - news\fix_news_analyzer.py (788 bytes)
+    - news\news_analyzer_fixed.py (788 bytes)
+    - openAI_connection.py (932 bytes)
+    - quick_generate_predictions.py (912 bytes)

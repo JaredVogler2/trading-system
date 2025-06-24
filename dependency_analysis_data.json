@@ -1,0 +1,158 @@
+{
+  "entry_point": "run_always_on_trading.py",
+  "total_files": 60,
+  "used_files": [
+    "main.py",
+    "run_always_on_trading.py"
+  ],
+  "unused_files": [
+    "alpaca_connection.py",
+    "analysis\\__init__.py",
+    "analysis\\full_analysis.py",
+    "analysis\\multi_timeframe_predictions.py",
+    "analysis\\view_predictions.py",
+    "analysis\\visualize_timeframes.py",
+    "backtesting\\__init__.py",
+    "backtesting\\comprehensive_backtester.py",
+    "backtesting\\engine.py",
+    "bundle_maker.py",
+    "check_prediction_files.py",
+    "check_setup.py",
+    "clear_dashboard_cache.py",
+    "config\\__init__.py",
+    "config\\always_on_config.py",
+    "config\\settings.py",
+    "config\\trading_config.py",
+    "count_lines.py",
+    "create_helper_scripts.py",
+    "data\\__init__.py",
+    "data\\collector.py",
+    "data\\database.py",
+    "debug_alpaca_data_fetch.py",
+    "debug_dashboard_connection.py",
+    "features\\__init__.py",
+    "features\\base_features.py",
+    "features\\interactions.py",
+    "features\\pipeline.py",
+    "models\\__init__.py",
+    "models\\neural_networks.py",
+    "module_tracer.py",
+    "monitoring\\__init__.py",
+    "monitoring\\backtest_runner.py",
+    "monitoring\\chart_creators.py",
+    "monitoring\\css_styles.py",
+    "monitoring\\data_fetchers.py",
+    "monitoring\\display_tabs.py",
+    "monitoring\\enhanced_dashboard.py",
+    "monitoring\\mock_data_generators.py",
+    "monitoring\\mock_data_tracker.py",
+    "monitoring\\real_data_manager.py",
+    "monitoring\\realtime_data_sync.py",
+    "monitoring\\utility_helpers.py",
+    "news\\__init__.py",
+    "news\\fix_news_analyzer.py",
+    "news\\news_analyzer.py",
+    "news\\news_analyzer_fixed.py",
+    "openAI_connection.py",
+    "quick_generate_predictions.py",
+    "run_analysis.py",
+    "run_backtest.py",
+    "run_enhanced_dashboard.py",
+    "setup_live_trading.py",
+    "setup_live_trading_fixed.py",
+    "temp_enhanced_dashboard_runner.py",
+    "trading\\__init__.py",
+    "trading\\live_trader.py",
+    "utils\\__init__.py"
+  ],
+  "import_graph": {
+    "quick_generate_predictions.py": [
+      "main.py"
+    ],
+    "run_always_on_trading.py": [
+      "main.py"
+    ],
+    "analysis\\multi_timeframe_predictions.py": [
+      "main.py"
+    ],
+    "trading\\live_trader.py": [
+      "main.py"
+    ]
+  },
+  "reverse_imports": {
+    "main.py": [
+      "analysis\\multi_timeframe_predictions.py",
+      "quick_generate_predictions.py",
+      "run_always_on_trading.py",
+      "trading\\live_trader.py"
+    ]
+  },
+  "categorized_unused": {
+    "test_files": [
+      "backtesting\\__init__.py",
+      "backtesting\\comprehensive_backtester.py",
+      "backtesting\\engine.py",
+      "monitoring\\backtest_runner.py",
+      "run_backtest.py"
+    ],
+    "setup_files": [
+      "check_setup.py",
+      "setup_live_trading.py",
+      "setup_live_trading_fixed.py"
+    ],
+    "other_entry_points": [
+      "run_analysis.py",
+      "run_enhanced_dashboard.py"
+    ],
+    "potentially_unused": [
+      "alpaca_connection.py",
+      "analysis\\__init__.py",
+      "analysis\\full_analysis.py",
+      "analysis\\multi_timeframe_predictions.py",
+      "analysis\\view_predictions.py",
+      "analysis\\visualize_timeframes.py",
+      "bundle_maker.py",
+      "check_prediction_files.py",
+      "clear_dashboard_cache.py",
+      "config\\__init__.py",
+      "config\\always_on_config.py",
+      "config\\settings.py",
+      "config\\trading_config.py",
+      "count_lines.py",
+      "create_helper_scripts.py",
+      "data\\__init__.py",
+      "data\\collector.py",
+      "data\\database.py",
+      "debug_alpaca_data_fetch.py",
+      "debug_dashboard_connection.py",
+      "features\\__init__.py",
+      "features\\base_features.py",
+      "features\\interactions.py",
+      "features\\pipeline.py",
+      "models\\__init__.py",
+      "models\\neural_networks.py",
+      "module_tracer.py",
+      "monitoring\\__init__.py",
+      "monitoring\\chart_creators.py",
+      "monitoring\\css_styles.py",
+      "monitoring\\data_fetchers.py",
+      "monitoring\\display_tabs.py",
+      "monitoring\\enhanced_dashboard.py",
+      "monitoring\\mock_data_generators.py",
+      "monitoring\\mock_data_tracker.py",
+      "monitoring\\real_data_manager.py",
+      "monitoring\\realtime_data_sync.py",
+      "monitoring\\utility_helpers.py",
+      "news\\__init__.py",
+      "news\\fix_news_analyzer.py",
+      "news\\news_analyzer.py",
+      "news\\news_analyzer_fixed.py",
+      "openAI_connection.py",
+      "quick_generate_predictions.py",
+      "temp_enhanced_dashboard_runner.py",
+      "trading\\__init__.py",
+      "trading\\live_trader.py",
+      "utils\\__init__.py"
+    ]
+  }
+}

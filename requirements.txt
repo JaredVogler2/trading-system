@@ -1,0 +1,33 @@
+# Core dependencies
+numpy==1.24.3
+pandas==2.0.3
+scipy==1.11.1
+scikit-learn==1.3.0
+
+# Trading APIs
+alpaca-py==0.10.0
+yfinance==0.2.28
+
+# Technical Analysis
+ta==0.10.2
+
+# Database
+sqlalchemy==2.0.19
+
+# Async and Real-time
+websockets==10.4  # Changed to be compatible with alpaca-py
+aiohttp==3.8.5
+
+# Monitoring and Dashboard
+streamlit==1.25.0
+plotly==5.15.0
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# Utilities
+python-dotenv==1.0.0
+tqdm==4.65.0
+joblib==1.3.1
+
+# Logging
+loguru==0.7.0

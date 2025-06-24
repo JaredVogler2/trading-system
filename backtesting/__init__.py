@@ -1,0 +1,1 @@
+"""Backtesting engine with temporal separation."""
